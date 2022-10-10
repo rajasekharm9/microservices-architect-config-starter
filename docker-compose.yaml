@@ -4,7 +4,7 @@ services:
   ui:
     build: ./ui-web-app-reactjs
     ports:
-      - 8080:8080
+      - 8080:8081
 
   zuul:
     build: ./zuul-api-gateway
